@@ -1,0 +1,13 @@
+{
+    "name": "abc/cli",
+    "description": "Run PHP code as interactive processes",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "require": {}
+}

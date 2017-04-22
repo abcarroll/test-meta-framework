@@ -1,0 +1,15 @@
+{
+    "name": "abc/app",
+    "description": "A meta framework that has no custom code, enabling you to use whatever back-end components you need.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "require": {
+
+    }
+}

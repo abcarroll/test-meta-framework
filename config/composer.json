@@ -1,0 +1,13 @@
+{
+    "name": "abc/config",
+    "description": "A configuration interface.  Use one of the abc/config-adapters to adapt to your favorite implementation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "require": {}
+}
