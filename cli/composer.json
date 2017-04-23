@@ -1,13 +1,42 @@
 {
-    "name": "abc/cli",
-    "description": "Run PHP code as interactive processes",
-    "type": "library",
-    "license": "BSD",
-    "authors": [
-        {
-            "name": "A.B. Carroll",
-            "email": "ben@hl9.net"
-        }
-    ],
-    "require": {}
+  "name":         "abc/cli",
+  "type":         "library",
+  "license":      "MIT",
+  "description":  "A cli interop interface for use with adapters.  See abc/cli.* packages for implementations.",
+  "keywords": [
+    "interface",
+    "interop",
+    "contract",
+    "framework",
+    "scaffolding",
+    "kernel",
+    "bootstrap"
+  ],
+  "suggests": {
+    "abc/cli.*": "Concrete adapter implementations for the abc/cli interop interface"
+  },
+  "authors": [
+    {
+      "name":     "A.B. Carroll",
+      "email":    "ben@hl9.net",
+      "homepage": "http://abphp.hl9.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "squizlabs/php_codesniffer": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "abc\\Cli\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "abc\\Cli\\Tests\\": "tests/"
+    }
+  }
 }

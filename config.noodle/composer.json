@@ -1,0 +1,43 @@
+{
+  "name":         "abc/config.noodle",
+  "type":         "library",
+  "license":      "MIT",
+  "description":  "The interop adapter for snapping the hassankhan/config implementation into the abc/config interface",
+  "keywords": [
+    "interface",
+    "interop",
+    "contract",
+    "framework",
+    "scaffolding",
+    "kernel",
+    "bootstrap"
+  ],
+  "suggests": {
+    "abc/config.noodle.*": "Concrete adapter implementations for the abc/config.noodle interop interface"
+  },
+  "authors": [
+    {
+      "name":     "A.B. Carroll",
+      "email":    "ben@hl9.net",
+      "homepage": "http://abphp.hl9.net"
+    }
+  ],
+  "require": {
+    "hassankhan/config": "^0.10.0",
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "squizlabs/php_codesniffer": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "abc\\Config.noodle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "abc\\Config.noodle\\Tests\\": "tests/"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name":         "abc/route-http",
+  "type":         "library",
+  "license":      "MIT",
+  "description":  "A cli interop interface for use with adapters.  See abc/route-http.* packages for real implementations.",
+  "keywords": [
+    "interface",
+    "interop",
+    "contract",
+    "framework",
+    "scaffolding",
+    "kernel",
+    "bootstrap"
+  ],
+  "suggests": {
+    "abc/route-http.*": "Concrete adapter implementations for the abc/route-http interop interface"
+  },
+  "authors": [
+    {
+      "name":     "A.B. Carroll",
+      "email":    "ben@hl9.net",
+      "homepage": "http://abphp.hl9.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "squizlabs/php_codesniffer": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "abc\\Route-http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "abc\\Route-http\\Tests\\": "tests/"
+    }
+  }
+}
